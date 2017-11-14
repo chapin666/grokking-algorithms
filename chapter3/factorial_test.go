@@ -5,6 +5,6 @@ import (
 	"testing"
 )
 
-func TestFactorial(t *testing.T) {
+func Test_Factorial(t *testing.T) {
 	fmt.Println("factorial=", factorial(10))
 }
